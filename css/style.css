@@ -244,7 +244,7 @@ a.button_dark:hover {
 .pagerlist {
   z-index: 9;
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -393,7 +393,7 @@ a.button_dark:hover {
   animation: animLoadedHeader 1.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
 }
 #intro .logo {
-  background-image: url("../img/logo-intro1.png");
+  background-image: url("../img/logo-intro.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -527,6 +527,12 @@ a.button_dark:hover {
   margin-right: auto;
   color: #919191;
   letter-spacing: 1px;
+}
+#end .copyright a {
+  font-size: medium;
+  color: red;
+  font-weight: 100;
+  text-decoration: none;
 }
 #end .backtotop {
   font-size: 0.6875rem;
@@ -1567,7 +1573,8 @@ section .slick .slide {
   height: 100%;
   text-align: center;
   width: 100%;
-  vertical-align: middle;
+  vertical-align: top; 
+  
 }
 section .slick .slide .testimonial {
   text-align: center;
@@ -1742,7 +1749,7 @@ section.grid ul.grid4x4 li {
 }
 section.grid ul.grid1x1 li {
   width: 100%;
-  height: 100%;
+  height:100%;
   border-left: 1px solid #e8e8ea;
   border-bottom: 1px solid #e8e8ea;
 }
@@ -2942,6 +2949,7 @@ section.tophead.mixitup .filteritems.services .item h3 {
   line-height: 1.75rem;
   color: #555;
 }
+
 section.tophead.mixitup .filteritems.services .item p {
   margin: 0;
   line-height: 2rem;
@@ -4152,7 +4160,7 @@ header:after {
     transform: none;
   }
   section.tophead .filterlist {
-    display: none;
+    display: block;
   }
   section.tophead.polaroid .photostack {
     height: 31.25rem;
