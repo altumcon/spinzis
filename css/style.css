@@ -4183,7 +4183,7 @@ header:after {
   }
   section.tophead .togglebox,
   section.tophead .multilist {
-    display: none;
+    display: block;
   }
   section.tophead.carousel .carouselitems .item .text {
     background-color: transparent;
@@ -4217,7 +4217,7 @@ header:after {
     display: none;
   }
   section.tophead.mixitup .filteritems.services .item {
-    display: block;
+    display: none;
     width: 100%;
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
     margin-bottom: 2.5rem;
@@ -4294,7 +4294,7 @@ header:after {
     bottom: auto;
   }
   section.tophead.mixitup .pagerlist {
-    display: none;
+    display: block;
   }
   section.carousel .carouselitems {
     height: auto;
