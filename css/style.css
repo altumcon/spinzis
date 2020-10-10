@@ -153,7 +153,11 @@ body .scrollarrow_right {
   z-index: -1;
 }
 /* Button
+
 */
+.elfsight-app-27f5352c-e911-406b-85b5-7782f04754c3 a {
+  display: none !important;
+}
 a.button {
   border: 1px solid #919191;
   padding: 1rem 2.617924rem;
@@ -4166,9 +4170,9 @@ header:after {
   section.tophead.polaroid .photostack {
     height: 31.25rem;
   }
-  section.tophead.polaroid .photostack nav span {
+  /* section.tophead.polaroid .photostack nav span {
     display: none;
-  }
+  } */
   section.tophead .gmap {
     height: 21.875rem;
   }
@@ -4679,3 +4683,5 @@ header:after {
     max-width: 800px;
   }
 }
+
+
