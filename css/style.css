@@ -3292,7 +3292,7 @@ fieldset {
   outline: 0;
   position: relative;
   min-height: 1.7em;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 fieldset:after {
   content: '';
